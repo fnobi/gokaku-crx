@@ -1,0 +1,15 @@
+{
+  "name": "gokaku-crx",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "gokaku url sender",
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_title": "gokaku-crx",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs"
+  ]
+}
